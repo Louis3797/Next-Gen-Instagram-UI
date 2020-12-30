@@ -4,18 +4,20 @@ import './Css//App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
 import {Home} from './pages/Home'
+import { NavBar } from './components/NavBar';
 
 
 export const App = () => {
   return(
-    <React.Fragment>
+    <div className="app-container">
       <TopNavbar />
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-        </Switch>
+        </Switch> 
+        <NavBar/>
       </Router>
-    </React.Fragment>
+    </div>
   )
 }
  
