@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Css/Stories.css"
-import { data } from '../data/data'
+//import { data } from '../data/data'
 
 import Profile1 from "../assets/profile/Profile1.jpeg";
 import Profile2 from "../assets/profile/Profile2.jpeg";
